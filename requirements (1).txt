@@ -1,0 +1,6 @@
+# monbot requirements - WizardScan X-milestone monitor bot (standalone)
+# Install: python3 -m venv venv && venv/bin/pip install -r requirements.txt
+# Monbot needs NO python-telegram-bot and NO telethon: it never posts to
+# Telegram and owns no session. Only requests (DexScreener / Birdeye /
+# GeckoTerminal fetches) plus the Python standard library.
+requests>=2.28
